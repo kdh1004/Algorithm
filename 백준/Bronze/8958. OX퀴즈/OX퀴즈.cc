@@ -14,11 +14,11 @@ int main(){
         scanf("%s",s);
         
         score=0;
-        count=1;
+        count=0;
         
         for(int i=0;i<strlen(s);i++){
-            if(s[i]=='O') score += count++;
-            else if(s[i]=='X') count=1;
+            if(s[i]=='O') score += ++count;
+            else if(s[i]=='X') count=0;
         }
         printf("%d \n",score);
     }
