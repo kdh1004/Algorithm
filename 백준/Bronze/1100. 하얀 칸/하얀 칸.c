@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	char chess[9][9];
+	char chess[8][8];
 	int count = 0;
 
 	for (int i = 0; i < 8; i++) {
